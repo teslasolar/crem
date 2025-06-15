@@ -174,7 +174,9 @@
                 <li><a href="#part1">Part 1: Downloading & Using GitHub Repositories</a></li>
                 <li><a href="#part2">Part 2: Creating Your Own Repository</a></li>
                 <li><a href="#part3">Part 3: Managing Your Repository</a></li>
-                <li><a href="#part4">Part 4: Chrome Extension Best Practices</a></li>
+                <li><a href="#part4">Part 4: GitHub Desktop (Easy GUI Method)</a></li>
+                <li><a href="#part5">Part 5: GitHub Pages (Free Website Hosting)</a></li>
+                <li><a href="#part6">Part 6: Chrome Extension Best Practices</a></li>
             </ul>
         </div>
 
@@ -370,7 +372,227 @@ git config --global user.email "your.email@example.com"</div>
         </div>
 
         <div id="part4" class="section">
-            <h2>🏆 Part 4: Chrome Extension Best Practices</h2>
+            <h2>💻 Part 4: GitHub Desktop (Easy GUI Method)</h2>
+            
+            <div class="tip">
+                <strong>🎯 Perfect for Beginners:</strong> GitHub Desktop provides a visual interface that makes Git much easier to use without command line knowledge!
+            </div>
+            
+            <h3>Installing GitHub Desktop</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Download GitHub Desktop</strong> from <a href="https://desktop.github.com/" target="_blank">desktop.github.com</a>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Install and sign in</strong> with your GitHub account
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Configure your name and email</strong> in Preferences/Options
+            </div>
+
+            <h3>Creating a Repository with GitHub Desktop</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Click "Create a New Repository"</strong> on the home screen
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Fill in the details:</strong>
+                <ul>
+                    <li><strong>Name:</strong> your-chrome-extension</li>
+                    <li><strong>Description:</strong> What your extension does</li>
+                    <li><strong>Local path:</strong> Where to save it on your computer</li>
+                    <li>✅ Check "Initialize this repository with a README"</li>
+                    <li>✅ Choose "MIT License" from the dropdown</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Click "Create Repository"</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Click "Publish repository"</strong> to upload it to GitHub.com
+            </div>
+
+            <h3>Adding Your Extension Files</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Copy your extension files</strong> into the repository folder (shown in GitHub Desktop)
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>GitHub Desktop will automatically detect</strong> the new files in the "Changes" tab
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Write a commit message</strong> like "Add Chrome extension files"
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Click "Commit to main"</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">5</span>
+                <strong>Click "Push origin"</strong> to upload to GitHub.com
+            </div>
+
+            <h3>Making Updates (Super Easy!)</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Edit your files</strong> in your favorite code editor
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>GitHub Desktop shows changes automatically</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Review changes</strong> in the visual diff viewer
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Write a descriptive commit message</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">5</span>
+                <strong>Commit and push</strong> with just two clicks!
+            </div>
+
+            <div class="tip">
+                <strong>💡 Pro Tip:</strong> GitHub Desktop handles all the complex Git commands for you. You can see a visual history of all changes, easily revert mistakes, and manage branches without touching the command line! Plus, when you push changes, your GitHub Pages site updates automatically!
+            </div>
+        </div>
+
+        <div id="part5" class="section">
+            <h2>🌐 Part 5: GitHub Pages (Free Website Hosting)</h2>
+            
+            <div class="chrome-extension-note">
+                <h3>🔥 Why This Is Awesome</h3>
+                <p>GitHub Pages lets you host your index.html file as a live website FOR FREE! Perfect for sharing installation guides, documentation, or demo pages for your Chrome extension.</p>
+            </div>
+            
+            <h3>Setting Up GitHub Pages</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Go to your repository</strong> on GitHub.com
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Click the "Settings" tab</strong> (near the top of the repository page)
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Scroll down to "Pages"</strong> in the left sidebar
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Under "Source," select "Deploy from a branch"</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">5</span>
+                <strong>Choose "main" branch</strong> and "/ (root)" folder
+            </div>
+            
+            <div class="step">
+                <span class="step-number">6</span>
+                <strong>Click "Save"</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">7</span>
+                <strong>Wait 2-3 minutes</strong> for GitHub to build your site
+            </div>
+            
+            <div class="step">
+                <span class="step-number">8</span>
+                <strong>Your site will be live at:</strong>
+                <div class="code-block">https://yourusername.github.io/repository-name/</div>
+            </div>
+
+            <h3>Accessing Your Pages</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Main page:</strong> https://yourusername.github.io/repository-name/
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>If you have index.html:</strong> It will show automatically
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Other pages:</strong> https://yourusername.github.io/repository-name/filename.html
+            </div>
+
+            <h3>Perfect Use Cases for Chrome Extensions</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Installation Guide:</strong> Host a beautiful guide showing how to install your extension
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Feature Showcase:</strong> Create a landing page with screenshots and features
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Documentation:</strong> Host comprehensive docs for your extension
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Demo Page:</strong> Show your extension in action with interactive examples
+            </div>
+
+            <div class="warning">
+                <strong>⚠️ Important:</strong> GitHub Pages sites are public, even if your repository is private. Don't put sensitive information on GitHub Pages!
+            </div>
+
+            <h3>Custom Domain (Optional)</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>In Pages settings,</strong> add your custom domain (e.g., myextension.com)
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Update your domain's DNS</strong> to point to GitHub Pages
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Enable "Enforce HTTPS"</strong> for security
+            </div>
+
+            <div class="tip">
+                <strong>🎯 Pro Tip:</strong> Every time you push changes to your repository, GitHub Pages automatically updates your website within minutes. It's like having automatic deployment for free!
+            </div>
+        </div>
+
+        <div id="part6" class="section">
+            <h2>🏆 Part 6: Chrome Extension Best Practices</h2>
             
             <h3>Essential Files for Your Repository</h3>
             <div class="step">
